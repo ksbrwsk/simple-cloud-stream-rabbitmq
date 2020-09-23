@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        producer:
+          destination: consumer
+          group: consumer-group
+          durableSubscription: true
+          content-type: application/json
+server:
+  port: 0

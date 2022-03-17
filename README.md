@@ -4,7 +4,7 @@
 
 **Prequisites:**
 
-* Java 14
+* Java 16
 * [Apache Maven](https:http://maven.apache.org/)
 * [RabbitMQ](https://activemq.apache.org/) Message Broker
 

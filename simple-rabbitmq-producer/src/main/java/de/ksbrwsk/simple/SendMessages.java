@@ -18,7 +18,7 @@ public class SendMessages {
 
     private final MessageChannel consumer;
 
-    @Scheduled(fixedRate = 30L)
+    @Scheduled(fixedRate = 2L)
     public void send() {
         Long count = counter.incrementAndGet();
         String text = "Message@"+count;

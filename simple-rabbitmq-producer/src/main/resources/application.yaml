@@ -8,3 +8,5 @@ spring:
         consumer:
           destination: consumer
           content-type: application/json
+server:
+  port: 0
